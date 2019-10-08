@@ -52,22 +52,6 @@ def features(filename1,filename2,address1,address2,featurefile1,featurefile2,lim
     Observation2: We suppose to have a segmentation map of the image with 
     filename    <image>_segmentation.jpg
     '''
-    # Change this to access training set images
-    #filename1 = 'C:\\Users\\raul-\\Documents\\DataSet-Challenge-IMA205-2019\\data\\im\\'
-    # Change this to access test set images
-    #filename2 = 'C:\\Users\\raul-\\Documents\\DataSet-Challenge-IMA205-2019\\data\\im\\'
-    # Change this to access training set names
-    #address1 = 'C:\\Users\\raul-\\Documents\\DataSet-Challenge-IMA205-2019\\data\\train.csv'
-    # Change this to access test set names
-    #address2 = 'C:\\Users\\raul-\\Documents\\DataSet-Challenge-IMA205-2019\\data\\test.csv'
-    # Change this to rename the training set file
-    #featurefile1 = 'features_train.csv'
-    # Change this to rename the test set file
-    #featurefile2 = 'features_test.csv'
-    #a=0
-    #b=0
-    #lim = 3000
-
     # Creating labels
     nfeat = 433
     labels = ["ImageID"]
